@@ -30,9 +30,23 @@
 
 ## About the Project
 
+A short, calm piece that walks through different families of instruments, all playing a warm C major progression. It feels like flipping through a sound library set to music, ending with a gentle fade-out on strings, choir, and tubular bells.
 
+---
 
 ## Instruments Used
+
+- **Piano, Electric Piano, Harpsichord** — opening chords
+- **Music Box, Celesta, Glockenspiel, Vibraphone** — delicate melody
+- **Synth Leads (Square, Sawtooth, Calliope, Voice)** — electronic section
+- **Trumpet, Trombone, French Horn, Brass Section** — brass section
+- **Violin, Viola, Cello, String Ensemble** — string section
+- **Flute, Clarinet, Oboe, Bassoon** — woodwind section
+- **Sitar, Koto, Shamisen, Kalimba** — world instruments
+- **Acoustic Bass, Synth Bass, Contrabass** — low end
+- **Warm Pad, Sweep Pad, Choir Aahs** — harmonic beds
+- **Tubular Bells** — ending shimmer
+- **TR-808 Drums** — soft kick, snare, and hats
 
 
 
