@@ -35,6 +35,36 @@ arrange(
   )],
 
   [4,stack(
+    note("c5 ~ e5 ~ g5 ~ e5 ~ c5 ~ b4 ~ g4 ~ e4 ~")
+      .sound("<gm_lead_1_square gm_lead_2_sawtooth gm_lead_3_calliope gm_lead_6_voice>")
+      .lpf(1900)
+      .room(0.6)
+      .delay(0.5)
+      .gain(0.3)
+      ._pianoroll(),
+
+    note("<[c3,e3,g3] [a2,c3,e3] [f2,a2,c3] [g2,b2,d3]>")
+      .sound("gm_pad_sweep")
+      .attack(1)
+      .release(2)
+      .room(0.9)
+      .gain(0.15)
+      ._pitchwheel(),
+
+    note("<c2 a1 f1 g1>")
+      .sound("gm_synth_bass_1")
+      .lpf(400)
+      .decay(0.3)
+      .gain(0.7)
+      ._scope(),
+
+    sound("<bd ~ ~ ~, ~ ~ sd ~, ~ hh ~ hh>")
+      .bank("RolandTR808")
+      .gain(0.20)
+      ._punchcard()
+  )],
+
+  [4,stack(
     note("<[c4,e4,g4] [a3,c4,e4] [f3,a3,c4] [g3,b3,d4]>")
       .sound("<gm_trumpet gm_trombone gm_french_horn gm_brass_section>")
       .struct("x ~ x x ~ x ~ x")
@@ -120,6 +150,36 @@ arrange(
     
   )],
 
-  [
+  [4,stack(  
+     note("c5 ~ e5 ~ g5 ~ e5 ~ c5 ~ b4 ~ g4 ~ e4 ~")
+      .sound("gm_string_ensemble_1")
+      .attack(0.05)
+      .release(1.5)
+      .room(0.8)
+      .gain(saw.range(0.28, 0).slow(4))
+      ._pianoroll(),
+
+    note("<[c3,e3,g3] [a2,c3,e3] [f2,a2,c3] [g2,b2,d3]>")
+      .sound("gm_choir_aahs")
+      .attack(1.5)
+      .release(3)
+      .room(1)
+      .gain(saw.range(0.15, 0).slow(4))
+      ._pitchwheel(),
+
+    note("<c2 a1 f1 g1>")
+      .sound("gm_acoustic_bass")
+      .lpf(400)
+      .release(2)
+      .gain(saw.range(0.45, 0).slow(4))
+      ._pianoroll(),
+
+    note("c6 ~ ~ ~")
+      .sound("gm_tubular_bells")
+      .room(1)
+      .release(4)
+      .gain(saw.range(0.3, 0).slow(4))
+      ._pianoroll()
+  )],
   
 )
