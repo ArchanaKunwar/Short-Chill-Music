@@ -49,11 +49,6 @@ No installation needed. To run the project:
   - Paste the code into the editor.
   - Press **Ctrl+Enter** (or **Cmd+Enter** on Mac) to play.
 
-```
-Ctrl+Enter    (Windows / Linux)
-Cmd+Enter     (macOS)
-```
-
 ## Help
 
 **No sound?**
